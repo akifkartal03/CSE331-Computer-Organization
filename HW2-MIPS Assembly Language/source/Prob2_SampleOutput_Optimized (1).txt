@@ -1,0 +1,149 @@
+The array is as follows: 9 21 32 2 30 17 28 22 2 12
+The target number is: 2
+The sequence giving the target number: 2
+Possible!
+Number of function calls: 1
+
+The array is as follows: 30 30 17 31 29 30 26 30 10 25
+The target number is: 12
+The sequence giving the target number:
+Not possible!
+Number of function calls: 2
+
+The array is as follows: 19 19 9 22 29 8 31 6 18 30
+The target number is: 22
+The sequence giving the target number: 22
+Possible!
+Number of function calls: 6
+
+The array is as follows: 3 13 21 22 22 14 27 32 8 28
+The target number is: 32
+The sequence giving the target number: 3 21 8
+Possible!
+Number of function calls: 6
+
+The array is as follows: 27 19 6 7 19 12 28 23 6 5
+The target number is: 42
+The sequence giving the target number: 19 6 12 5
+Possible!
+Number of function calls: 18
+
+The array is as follows: 6 24 26 22 7 23 12 7 8 20
+The target number is: 52
+The sequence giving the target number: 6 24 22
+Possible!
+Number of function calls: 3
+
+The array is as follows: 8 33 15 28 25 11 32 33 26 11
+The target number is: 62
+The sequence giving the target number: 8 15 28 11
+Possible!
+Number of function calls: 8
+
+The array is as follows: 24 13 18 31 17 6 25 16 7 18
+The target number is: 72
+The sequence giving the target number: 24 13 18 17
+Possible!
+Number of function calls: 4
+
+The array is as follows: 28 18 28 23 13 27 17 18 6 8
+The target number is: 82
+The sequence giving the target number: 28 18 28 8
+Possible!
+Number of function calls: 5
+
+The array is as follows: 16 1 9 5 27 23 15 4 28 9
+The target number is: 92
+The sequence giving the target number: 16 1 9 23 15 28
+Possible!
+Number of function calls: 51
+
+The array is as follows: 16 30 20 25 1 31 19 30 27 13
+The target number is: 102
+The sequence giving the target number: 16 30 25 1 30
+Possible!
+Number of function calls: 22
+
+The array is as follows: 6 3 30 32 1 22 15 31 16 13
+The target number is: 112
+The sequence giving the target number: 6 30 32 15 16 13
+Possible!
+Number of function calls: 130
+
+The array is as follows: 29 25 21 25 15 18 28 32 6 8
+The target number is: 122
+The sequence giving the target number: 29 25 21 15 18 6 8
+Possible!
+Number of function calls: 13
+
+The array is as follows: 27 29 13 11 8 32 22 30 23 19
+The target number is: 132
+The sequence giving the target number: 27 29 13 11 22 30
+Possible!
+Number of function calls: 15
+
+The array is as follows: 14 12 1 22 30 33 2 24 33 10
+The target number is: 142
+The sequence giving the target number: 14 22 30 33 33 10
+Possible!
+Number of function calls: 169
+
+The array is as follows: 21 32 18 29 13 30 10 21 19 6
+The target number is: 152
+The sequence giving the target number: 21 32 29 13 30 21 6
+Possible!
+Number of function calls: 67
+
+The array is as follows: 20 24 4 12 33 16 8 16 6 30
+The target number is: 162
+The sequence giving the target number:
+Not possible!
+Number of function calls: 74
+
+The array is as follows: 29 15 3 32 10 31 25 1 1 32
+The target number is: 172
+The sequence giving the target number:
+Not possible!
+Number of function calls: 71
+
+The array is as follows: 32 16 21 20 19 21 4 27 11 6
+The target number is: 182
+The sequence giving the target number:
+Not possible!
+Number of function calls: 1
+
+The array is as follows: 33 11 31 11 21 13 22 18 11 11
+The target number is: 192
+The sequence giving the target number:
+Not possible!
+Number of function calls: 1
+
+The array is as follows: 21 27 27 28 9 3 20 9 29 10
+The target number is: 202
+The sequence giving the target number:
+Not possible!
+Number of function calls: 1
+
+The array is as follows: 21 20 4 6 8 33 28 26 25 22
+The target number is: 212
+The sequence giving the target number:
+Not possible!
+Number of function calls: 1
+
+The array is as follows: 32 4 11 33 24 22 28 19 22 30
+The target number is: 222
+The sequence giving the target number:
+Not possible!
+Number of function calls: 55
+
+The array is as follows: 15 3 21 9 26 32 13 28 26 17
+The target number is: 232
+The sequence giving the target number:
+Not possible!
+Number of function calls: 1
+
+The array is as follows: 33 24 8 24 6 21 16 20 17 28
+The target number is: 242
+The sequence giving the target number:
+Not possible!
+Number of function calls: 1

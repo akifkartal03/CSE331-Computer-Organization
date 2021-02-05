@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+  This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="facing" val="south"/>
+      <a name="tristate" val="false"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </tool>
+    <tool name="Probe">
+      <a name="radix" val="10signed"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1">
+    <tool name="AND Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="2"/>
+    </tool>
+    <tool name="OR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </tool>
+    <tool name="XOR Gate">
+      <a name="size" val="30"/>
+      <a name="inputs" val="3"/>
+    </tool>
+  </lib>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="Register">
+      <a name="width" val="32"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </tool>
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5">
+    <tool name="DotMatrix">
+      <a name="matrixcols" val="2"/>
+      <a name="matrixrows" val="8"/>
+    </tool>
+  </lib>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <tool name="Text">
+      <a name="text" val="s1"/>
+      <a name="font" val="SansSerif plain 18"/>
+    </tool>
+  </lib>
+  <lib desc="file#control.circ" name="7"/>
+  <lib desc="file#datapath.circ" name="8"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif bold 18"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(350,280)" to="(410,280)"/>
+    <wire from="(360,260)" to="(410,260)"/>
+    <wire from="(370,190)" to="(420,190)"/>
+    <wire from="(140,360)" to="(190,360)"/>
+    <wire from="(420,180)" to="(420,190)"/>
+    <wire from="(190,290)" to="(240,290)"/>
+    <wire from="(300,180)" to="(300,190)"/>
+    <wire from="(440,270)" to="(550,270)"/>
+    <wire from="(310,330)" to="(410,330)"/>
+    <wire from="(350,250)" to="(350,280)"/>
+    <wire from="(340,260)" to="(340,290)"/>
+    <wire from="(330,270)" to="(330,300)"/>
+    <wire from="(200,250)" to="(240,250)"/>
+    <wire from="(480,290)" to="(480,380)"/>
+    <wire from="(440,290)" to="(480,290)"/>
+    <wire from="(360,270)" to="(360,360)"/>
+    <wire from="(550,270)" to="(550,430)"/>
+    <wire from="(320,280)" to="(320,320)"/>
+    <wire from="(310,290)" to="(310,330)"/>
+    <wire from="(300,300)" to="(300,340)"/>
+    <wire from="(360,220)" to="(360,260)"/>
+    <wire from="(270,250)" to="(350,250)"/>
+    <wire from="(370,190)" to="(370,250)"/>
+    <wire from="(200,250)" to="(200,370)"/>
+    <wire from="(470,310)" to="(470,370)"/>
+    <wire from="(210,260)" to="(210,380)"/>
+    <wire from="(360,70)" to="(360,190)"/>
+    <wire from="(500,250)" to="(570,250)"/>
+    <wire from="(270,260)" to="(340,260)"/>
+    <wire from="(340,290)" to="(410,290)"/>
+    <wire from="(270,270)" to="(330,270)"/>
+    <wire from="(300,220)" to="(360,220)"/>
+    <wire from="(440,280)" to="(500,280)"/>
+    <wire from="(190,290)" to="(190,360)"/>
+    <wire from="(270,280)" to="(320,280)"/>
+    <wire from="(300,190)" to="(350,190)"/>
+    <wire from="(360,270)" to="(410,270)"/>
+    <wire from="(360,70)" to="(410,70)"/>
+    <wire from="(550,510)" to="(590,510)"/>
+    <wire from="(550,430)" to="(590,430)"/>
+    <wire from="(190,360)" to="(360,360)"/>
+    <wire from="(300,340)" to="(410,340)"/>
+    <wire from="(570,250)" to="(570,330)"/>
+    <wire from="(550,430)" to="(550,510)"/>
+    <wire from="(500,250)" to="(500,280)"/>
+    <wire from="(300,190)" to="(300,220)"/>
+    <wire from="(270,290)" to="(310,290)"/>
+    <wire from="(310,70)" to="(350,70)"/>
+    <wire from="(370,250)" to="(410,250)"/>
+    <wire from="(140,270)" to="(240,270)"/>
+    <wire from="(210,260)" to="(240,260)"/>
+    <wire from="(320,320)" to="(410,320)"/>
+    <wire from="(440,310)" to="(470,310)"/>
+    <wire from="(570,330)" to="(590,330)"/>
+    <wire from="(570,250)" to="(590,250)"/>
+    <wire from="(270,300)" to="(300,300)"/>
+    <wire from="(200,370)" to="(470,370)"/>
+    <wire from="(210,380)" to="(480,380)"/>
+    <wire from="(360,190)" to="(370,190)"/>
+    <wire from="(330,300)" to="(410,300)"/>
+    <wire from="(350,70)" to="(350,190)"/>
+    <comp lib="0" loc="(310,70)" name="Probe">
+      <a name="radix" val="10signed"/>
+    </comp>
+    <comp lib="0" loc="(590,510)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="radix" val="10signed"/>
+    </comp>
+    <comp lib="6" loc="(174,40)" name="Text">
+      <a name="text" val="*Enter multiplier and multiplicand numbers"/>
+      <a name="font" val="Consolas bold 14"/>
+    </comp>
+    <comp lib="0" loc="(140,360)" name="Clock"/>
+    <comp lib="5" loc="(140,270)" name="Button">
+      <a name="label" val="Calculate"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(300,180)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Multiplier"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="0" loc="(590,330)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="radix" val="10signed"/>
+    </comp>
+    <comp lib="0" loc="(590,250)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Result_High"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="6" loc="(58,20)" name="Text">
+      <a name="text" val="*Enable Clock"/>
+      <a name="font" val="Consolas bold 14"/>
+    </comp>
+    <comp lib="7" loc="(270,250)" name="control_unit">
+      <a name="label" val="Control Unit"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(410,70)" name="Probe">
+      <a name="facing" val="west"/>
+      <a name="radix" val="10signed"/>
+    </comp>
+    <comp lib="0" loc="(420,180)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Multiplicand"/>
+      <a name="labelloc" val="east"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="6" loc="(114,81)" name="Text">
+      <a name="text" val="*Change Numbers Click Again"/>
+      <a name="font" val="Consolas bold 14"/>
+    </comp>
+    <comp lib="8" loc="(440,260)" name="datapath">
+      <a name="label" val="Datapath"/>
+      <a name="labelfont" val="SansSerif bold 14"/>
+    </comp>
+    <comp lib="0" loc="(590,430)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="width" val="32"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="Result_Low"/>
+      <a name="labelloc" val="north"/>
+      <a name="labelfont" val="SansSerif bold 16"/>
+    </comp>
+    <comp lib="6" loc="(98,59)" name="Text">
+      <a name="text" val="*Click Calculate Button"/>
+      <a name="font" val="Consolas bold 14"/>
+    </comp>
+  </circuit>
+</project>
