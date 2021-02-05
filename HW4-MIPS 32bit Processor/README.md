@@ -1,4 +1,4 @@
-### Implemention of a different version of 32-bit MIPS processor with 14 instruction by using Altera Quartus II with Verilog.
+#### Implementation of a different version of 32-bit MIPS processor with 14 instruction by using Altera Quartus II with Verilog.
 ### Supported Instructions
 
 - lw
